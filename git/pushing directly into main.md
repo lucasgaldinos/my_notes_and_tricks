@@ -39,6 +39,6 @@ To prevent direct pushes to the `main` branch in the future, you can set up bran
 
 1. Go to the repository settings.
 2. Navigate to the section for branch protection or access control.
-3. **Set up a rule for the `main` branch that requires pull requests for merging changes.**
+3. **Set up a rule for the `main` branch that requires pull requests for merging changes. gh (GITHUB CLI) DOES NOT ALLOW TO CHANGE RULES YET, so it must be done in the repo configurations.**
 
 With a branch protection rule in place, you'll ensure that changes to the `main` branch go through a review process using pull requests.
